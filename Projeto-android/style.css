@@ -1,0 +1,163 @@
+@charset "UTF-8";
+@font-face {
+    font-family: android;
+    src: url(fontes/idroid.otf);
+}
+@font-face {
+    font-family: big-titling;
+    src: url(fontes/big_noodle_titling.ttf);
+}
+body{
+    background-color: #78cc94;
+}
+
+header{
+    height: 200px;
+    background-image: linear-gradient(to bottom,#43b371, #156d20, #003518 );
+}
+
+header > h1{
+    font: normal 3em big-titling, arial, sans-serif;
+    margin: 0px;
+    color: white;
+    text-align: center;
+}
+
+header > p{
+    text-align: center;
+    font: normal 1.2em sans-serif;
+    color: white;
+    padding: 1px;
+    min-width: 320px;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+#menu{
+    margin: 10px;
+    padding-top: 35px;
+}
+
+
+#menu > a{
+    font: bolder 1.05em arial;
+    display: inline-grid;
+    text-decoration: none;
+    margin-right: 50px;
+    color: white;
+    border-radius: 3px;
+    padding: 10px;
+    text-align: center;
+}
+
+#menu > a:hover{
+    background-color: rgba(255, 255, 255, 0.445);
+    transition-duration: 1s;
+
+
+}
+
+main{
+
+    min-width: 400px;    
+    max-width: 800px;
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    border-radius: 0px 0px 10px 10px;
+    
+}
+
+main > h1{
+    font: normal 2em android, arial;
+    color: #007a1f;
+    margin: 0px 20px
+}
+
+main > p{
+    font: normal 1.2em sans-serif;
+    text-align: justify;
+}
+
+main > h2{
+    font: normal 2em android, arial;
+    color: #007a1f;
+    background-image: linear-gradient(to right, #00a12873, #ffffffff 80%);
+    
+}
+
+picture > img{
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+#bugdroid{
+    display: block;
+    margin: auto;
+}
+
+#video{
+    background-color: #003518;
+    padding: 20px;
+    padding-bottom: 50%;
+    position: relative;
+    margin: 0px -20px;
+}
+
+#video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+#lista{
+    background-color: #78cc94a6;
+    border-radius: 10px;
+    font: normal 1.2em sans-serif, arial;
+    box-shadow: 2px 2px 7px #00000081;
+}
+
+#lista > p{
+    margin: 10px;
+}
+
+#lista > ul{
+    display: inline-block;
+    columns: 2;
+    column-gap: 100px;
+}
+
+#lista > h3{
+    color: white;
+    background-color: #137049da;
+    padding: 8px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+footer{
+    background-color: #003518;
+    padding: 15px;
+    
+}
+
+footer > p{
+    text-align: center;
+    color: #ffffffff;
+    font: bold 1.2em sans-serif;
+    margin: 5px;
+}
+
+footer > p > a{
+    color: white;
+    text-decoration: none;
+
+}
+
+footer > p > a:hover{
+    text-decoration: underline;
+    background-color: rgba(255, 255, 255, 0.37);
+}
