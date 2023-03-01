@@ -14,6 +14,9 @@ body{
 header{
     height: 200px;
     background-image: linear-gradient(to bottom,#43b371, #156d20, #003518 );
+    margin: auto;
+    min-width: 400px;
+    max-width: 100vw;
 }
 
 header > h1{
@@ -141,7 +144,8 @@ picture > img{
 footer{
     background-color: #003518;
     padding: 15px;
-    
+    min-width: 400px;
+    max-width: 100vw;
 }
 
 footer > p{
