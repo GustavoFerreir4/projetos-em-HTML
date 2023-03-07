@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(222, 240, 255);
+}
+
+#main-content{
+    background-color: lightgrey;
+    max-width: 1000px;
+    min-width: 300px;
+    margin: auto;
+    border-radius: 10px;
+    border: solid 1px black;
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.671);
+}
+
+#thumb-layout{
+    border: 1px solid black;
+    max-width: 900px;
+    min-width: 250px;
+    margin: auto;
+}
+
+.thumbnails{
+    width: 400px;
+    margin: 15px 24px;
+    display: inline-block;
+}
+
+h1{
+    text-align: center;
+    font: bold 2em Arial, sans-serif;  
+}
+
+footer{
+    background-color: grey;
+}
+
+.socialmedia-icon{
+    width: 25px;
+    margin: 10px 30px;
+}
