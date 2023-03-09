@@ -63,7 +63,7 @@ header > p{
 
 main{
 
-    min-width: 400px;    
+    min-width: 300px;    
     max-width: 800px;
     background-color: white;
     margin: auto;
@@ -75,12 +75,14 @@ main{
 main > h1{
     font: normal 2em android, arial;
     color: #007a1f;
-    margin: 0px 20px
+    margin: 0px 20px;
 }
 
 main > p{
     font: normal 1.2em sans-serif;
     text-align: justify;
+    text-indent: 10px;
+    line-height: 25pt;
 }
 
 main > h2{
