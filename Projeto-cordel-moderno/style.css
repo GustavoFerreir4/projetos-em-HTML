@@ -1,0 +1,110 @@
+@charset "UTF_8";
+
+@font-face {
+    font-family: mood;
+    src: url(fontes/moodboard.otf);
+}
+
+@font-face {
+    font-family: caviar dreams;
+    src: url(fontes/CaviarDreams.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background: black;
+    color: white;
+    padding: 60px 0px;
+    text-align: center;
+    max-width: auto;
+    min-width: 300px;
+    margin: 0px;
+}
+
+header > h1{
+    font-style: bolder;
+    font-size: max(3em, 8vw);
+    font-family: 'mood', serif;;
+    margin: 0px 0px 10px 0px;
+}
+
+header > p{
+    font: normal 1.3em 'cursive';
+    margin: 0px;
+}
+
+section{
+    display: block;
+    max-width: 100%;
+    min-width: 30%;
+    margin: 0px 0px 30px 30px;
+}
+
+section > p{
+    font-style: bolder;
+    font-family: 'caviar dreams', 'cursive', sans-serif;
+    font-size: max(1.5em, 3.5vw );
+    line-height: 2em;
+    margin: 0px;
+    padding: 5px;
+}
+
+#background1{
+    background: black url(imagens/background001.jpg) right center no-repeat fixed;
+    background-size: cover;
+    margin: 0px;
+    color: white;
+    padding: 20px 40px;
+}
+
+#background1>p{
+    background-color: rgba(0, 0, 0, 0.50);
+    max-width: 610px;
+    min-width: 250px;
+
+} 
+
+#background2{
+    background: black url(imagens/background002.jpg) right center no-repeat fixed;
+    background-size: cover;
+    color: white;
+    margin: 0px;
+    padding: 20px 40px;
+}
+
+#background2>p{
+    background-color: rgba(0, 0, 0, 0.50);
+    max-width: 610px;
+    min-width: 250px;
+}
+
+footer{
+    background: black;
+    color: white;
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+}
+
+footer > p{
+    font: normal 1.3em 'cursive', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a:visited{
+    color: white;
+}
