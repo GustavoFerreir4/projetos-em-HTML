@@ -9,6 +9,8 @@
 }
 body{
     background-color: #78cc94;
+    margin: 0px;
+    padding: 0px;
 }
 
 header{
@@ -86,7 +88,7 @@ main > p{
 }
 
 main > h2{
-    font: normal 2em android, arial;
+    font: normal 2em 'android', arial;
     color: #007a1f;
     background-image: linear-gradient(to right, #00a12873, #ffffffff 80%);
     
