@@ -49,10 +49,10 @@ section{
 section > p{
     font-style: bolder;
     font-family: 'caviar dreams', 'cursive', sans-serif;
-    font-size: max(1.5em, 3.5vw );
+    font-size: max(1.2em, 2.6vw );
     line-height: 2em;
     margin: 0px;
-    padding: 5px;
+    padding: 3px;
 }
 
 #background1{
